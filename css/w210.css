@@ -6,7 +6,7 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    font-family: Avenir, Garamond, Helvetica, Arial
+    font-family: Avenir, Helvetica, Arial
 }
 
 #alert {
@@ -29,19 +29,35 @@ footer {
 
 dl {
     margin: 0px;
-  }
-  dt {
+}
+
+
+dt {
     margin: 0px;
     float: left;
     clear: left;
     width: 0px;
     text-align: right;
     font-weight: bold;
-  }
-  dt:after {
-    content: ":";
-  }
+}
   dd {
     margin: 0 0 0 50px;
     padding: 0 0 0.5em 0;
   }
+
+.glyphicon {
+    font-size: 14px;
+}
+
+p.authors {
+    font-size: 12px;
+}
+
+div.detail_scrollable {
+    overflow-y: scroll;
+    max-height: 180px;
+}
+
+img {
+	align: right;
+}
