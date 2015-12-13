@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Dengue Fever
                     <small><a href="dengu_20140301.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Mar 02, 2014 <a href="dengu_20140303.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/dengu_hemmo_20140302.html">Hemmorhagic Fever</option><option value="../comparison/dengu_moldf_20140302.html">Mold/Fungal Infection</option><option value="../comparison/dengu_influ_20140302.html">Influenza</option><option value="../comparison/dengu_menin_20140302.html">Meningitis</option><option value="../comparison/dengu_pertu_20140302.html">Pertussis / Whooping Cough</option><option value="../comparison/dengu_mersc_20140302.html">Middle East Respiratory Syndrome</option><option value="../comparison/dengu_chole_20140302.html">Cholera</option><option value="../comparison/dengu_hepat_20140302.html">Hepatitis</option><option value="../comparison/dengu_chiku_20140302.html">Chikungunya</option><option value="../comparison/dengu_yello_20140302.html">Yellow Fever</option><option value="../comparison/dengu_plagu_20140302.html">Bubonic Plague</option><option value="../comparison/dengu_westn_20140302.html">West Nile Virus</option><option value="../comparison/dengu_swine_20140302.html">Swine Flu</option><option value="../comparison/dengu_ebola_20140302.html">Ebola</option><option value="../comparison/dengu_measl_20140302.html">Measles</option><option value="../comparison/dengu_unkno_20140302.html">Unknown</option><option value="../comparison/dengu_mumps_20140302.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,8 +73,8 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.990</dt><dd><a href="http://www.samoaobserver.ws/local-news/28-health-/9427-first-dengue-case-alarms">First dengue case alarms</a></dd>
-<dt>0.929</dt><dd><a href="http://www.dailyexpress.com.my/news.cfm?NewsID=88578">Daily Express Newspaper Online, Sabah, Malaysia.</a></dd>
+                        <dt>0.990</dt><dd><a href="http://www.samoaobserver.ws/local-news/28-health-/9427-first-dengue-case-alarms" target="_blank">First dengue case alarms</a></dd>
+<dt>0.929</dt><dd><a href="http://www.dailyexpress.com.my/news.cfm?NewsID=88578" target="_blank">Daily Express Newspaper Online, Sabah, Malaysia.</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -111,6 +117,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

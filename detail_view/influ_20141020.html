@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Influenza
                     <small><a href="influ_20141019.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Oct 20, 2014 <a href="influ_20141021.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/influ_dengu_20141020.html">Dengue Fever</option><option value="../comparison/influ_hemmo_20141020.html">Hemmorhagic Fever</option><option value="../comparison/influ_moldf_20141020.html">Mold/Fungal Infection</option><option value="../comparison/influ_menin_20141020.html">Meningitis</option><option value="../comparison/influ_pertu_20141020.html">Pertussis / Whooping Cough</option><option value="../comparison/influ_mersc_20141020.html">Middle East Respiratory Syndrome</option><option value="../comparison/influ_chole_20141020.html">Cholera</option><option value="../comparison/influ_hepat_20141020.html">Hepatitis</option><option value="../comparison/influ_chiku_20141020.html">Chikungunya</option><option value="../comparison/influ_yello_20141020.html">Yellow Fever</option><option value="../comparison/influ_plagu_20141020.html">Bubonic Plague</option><option value="../comparison/influ_westn_20141020.html">West Nile Virus</option><option value="../comparison/influ_swine_20141020.html">Swine Flu</option><option value="../comparison/influ_ebola_20141020.html">Ebola</option><option value="../comparison/influ_measl_20141020.html">Measles</option><option value="../comparison/influ_unkno_20141020.html">Unknown</option><option value="../comparison/influ_mumps_20141020.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,12 +73,12 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>1.000</dt><dd><a href="http://guardianlv.com/2014/10/ebola-and-influenza-symptoms-similar/">Ebola and Influenza Symptoms Similar</a></dd>
-<dt>0.986</dt><dd><a href="http://www.washingtonpost.com/local/the-flu-pandemic-that-came-to-washington-in-1918-killed-2800-sickened-many-more/2014/10/19/370203de-54a5-11e4-ba4b-f6333e2c0453_story.html?tid=hpModule_99d5f542-86a2-11e2-9d71-f0feafdd1394">The flu pandemic that came to Washington in 1918 killed 2,800, sickened many more</a></dd>
-<dt>0.976</dt><dd><a href="http://www.futurity.org/flu-shots-less-effective-for-obese-people/">Flu shots less effective for obese people</a></dd>
-<dt>0.947</dt><dd><a href="http://www.fortmcmurraytoday.com/2014/10/19/fort-mcmurrayites-urged-to-get-flu-shot">Residents urged to get flu shot</a></dd>
-<dt>0.839</dt><dd><a href="http://mdjonline.com/bookmark/25977635-DIY-immunity-Study-shows-spray-vaccines-can-be-administered-safely-by-Mom-and-Dad">The Marietta Daily Journal</a></dd>
-<dt>0.574</dt><dd><a href="http://www.hattiesburgamerican.com/story/news/local/2014/10/20/mississippi-best-vaccinations/17645309/">Mississippi has nation’s top vaccination rate</a></dd>
+                        <dt>1.000</dt><dd><a href="http://guardianlv.com/2014/10/ebola-and-influenza-symptoms-similar/" target="_blank">Ebola and Influenza Symptoms Similar</a></dd>
+<dt>0.986</dt><dd><a href="http://www.washingtonpost.com/local/the-flu-pandemic-that-came-to-washington-in-1918-killed-2800-sickened-many-more/2014/10/19/370203de-54a5-11e4-ba4b-f6333e2c0453_story.html?tid=hpModule_99d5f542-86a2-11e2-9d71-f0feafdd1394" target="_blank">The flu pandemic that came to Washington in 1918 killed 2,800, sickened many more</a></dd>
+<dt>0.976</dt><dd><a href="http://www.futurity.org/flu-shots-less-effective-for-obese-people/" target="_blank">Flu shots less effective for obese people</a></dd>
+<dt>0.947</dt><dd><a href="http://www.fortmcmurraytoday.com/2014/10/19/fort-mcmurrayites-urged-to-get-flu-shot" target="_blank">Residents urged to get flu shot</a></dd>
+<dt>0.839</dt><dd><a href="http://mdjonline.com/bookmark/25977635-DIY-immunity-Study-shows-spray-vaccines-can-be-administered-safely-by-Mom-and-Dad" target="_blank">The Marietta Daily Journal</a></dd>
+<dt>0.574</dt><dd><a href="http://www.hattiesburgamerican.com/story/news/local/2014/10/20/mississippi-best-vaccinations/17645309/" target="_blank">Mississippi has nation’s top vaccination rate</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -115,6 +121,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

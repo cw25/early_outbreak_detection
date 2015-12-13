@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Meningitis
                     <small><a href="menin_20140520.html"><span class="glyphicon glyphicon-arrow-left"></span></a> May 21, 2014 <a href="menin_20140522.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/menin_dengu_20140521.html">Dengue Fever</option><option value="../comparison/menin_hemmo_20140521.html">Hemmorhagic Fever</option><option value="../comparison/menin_moldf_20140521.html">Mold/Fungal Infection</option><option value="../comparison/menin_influ_20140521.html">Influenza</option><option value="../comparison/menin_pertu_20140521.html">Pertussis / Whooping Cough</option><option value="../comparison/menin_mersc_20140521.html">Middle East Respiratory Syndrome</option><option value="../comparison/menin_chole_20140521.html">Cholera</option><option value="../comparison/menin_hepat_20140521.html">Hepatitis</option><option value="../comparison/menin_chiku_20140521.html">Chikungunya</option><option value="../comparison/menin_yello_20140521.html">Yellow Fever</option><option value="../comparison/menin_plagu_20140521.html">Bubonic Plague</option><option value="../comparison/menin_westn_20140521.html">West Nile Virus</option><option value="../comparison/menin_swine_20140521.html">Swine Flu</option><option value="../comparison/menin_ebola_20140521.html">Ebola</option><option value="../comparison/menin_measl_20140521.html">Measles</option><option value="../comparison/menin_unkno_20140521.html">Unknown</option><option value="../comparison/menin_mumps_20140521.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,7 +73,7 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.842</dt><dd><a href="http://www.globalsecurity.org/military/library/news/2014/05/mil-140520-unnews04.htm">With half its health centres in Syria destroyed, UN agency adapts to meet needs of Palestinian refugees</a></dd>
+                        <dt>0.842</dt><dd><a href="http://www.globalsecurity.org/military/library/news/2014/05/mil-140520-unnews04.htm" target="_blank">With half its health centres in Syria destroyed, UN agency adapts to meet needs of Palestinian refugees</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -110,6 +116,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

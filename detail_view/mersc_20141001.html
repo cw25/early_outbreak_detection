@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Middle East Respiratory Syndrome
                     <small><a href="mersc_20140930.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Oct 01, 2014 <a href="mersc_20141002.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/mersc_dengu_20141001.html">Dengue Fever</option><option value="../comparison/mersc_hemmo_20141001.html">Hemmorhagic Fever</option><option value="../comparison/mersc_moldf_20141001.html">Mold/Fungal Infection</option><option value="../comparison/mersc_influ_20141001.html">Influenza</option><option value="../comparison/mersc_menin_20141001.html">Meningitis</option><option value="../comparison/mersc_pertu_20141001.html">Pertussis / Whooping Cough</option><option value="../comparison/mersc_chole_20141001.html">Cholera</option><option value="../comparison/mersc_hepat_20141001.html">Hepatitis</option><option value="../comparison/mersc_chiku_20141001.html">Chikungunya</option><option value="../comparison/mersc_yello_20141001.html">Yellow Fever</option><option value="../comparison/mersc_plagu_20141001.html">Bubonic Plague</option><option value="../comparison/mersc_westn_20141001.html">West Nile Virus</option><option value="../comparison/mersc_swine_20141001.html">Swine Flu</option><option value="../comparison/mersc_ebola_20141001.html">Ebola</option><option value="../comparison/mersc_measl_20141001.html">Measles</option><option value="../comparison/mersc_unkno_20141001.html">Unknown</option><option value="../comparison/mersc_mumps_20141001.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,12 +73,12 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>1.000</dt><dd><a href="http://www.reuters.com/article/2014/10/01/us-health-mers-idUSKCN0HQ4Q020141001?feedType=RSS&feedName=healthNews">Reeling from Ebola, WHO warns of MERS risk to Africa</a></dd>
-<dt>0.998</dt><dd><a href="http://af.reuters.com/article/southAfricaNews/idAFL6N0RW4XV20141001">Reeling from Ebola, WHO warns of MERS risk to Africa</a></dd>
-<dt>0.976</dt><dd><a href="http://www.arabnews.com/featured/news/638241&c=ZJLgNs3Mx3xCbHkFIx4I_VRjJ8vRw89cnnozv8JsurU&mkt=en-us">MERS raises its ugly head again</a></dd>
-<dt>0.972</dt><dd><a href="http://www.cidrap.umn.edu/news-perspective/2014/09/news-scan-sep-30-2014">News Scan for Sep 30, 2014</a></dd>
-<dt>0.891</dt><dd><a href="http://www.arabnews.com/featured/news/638706&c=wStlzgPMAZcS1kJaK4aWb7-EmuzyxhD49Q13uTFFhI8&mkt=en-us">Fakeih: No MERS cases in Makkah</a></dd>
-<dt>0.667</dt><dd><a href="http://www.kuna.net.kw/ArticleDetails.aspx?id=2400422&language=en">KUNA : Holy Makkah is Corona-free</a></dd>
+                        <dt>1.000</dt><dd><a href="http://www.reuters.com/article/2014/10/01/us-health-mers-idUSKCN0HQ4Q020141001?feedType=RSS&feedName=healthNews" target="_blank">Reeling from Ebola, WHO warns of MERS risk to Africa</a></dd>
+<dt>0.998</dt><dd><a href="http://af.reuters.com/article/southAfricaNews/idAFL6N0RW4XV20141001" target="_blank">Reeling from Ebola, WHO warns of MERS risk to Africa</a></dd>
+<dt>0.976</dt><dd><a href="http://www.arabnews.com/featured/news/638241&c=ZJLgNs3Mx3xCbHkFIx4I_VRjJ8vRw89cnnozv8JsurU&mkt=en-us" target="_blank">MERS raises its ugly head again</a></dd>
+<dt>0.972</dt><dd><a href="http://www.cidrap.umn.edu/news-perspective/2014/09/news-scan-sep-30-2014" target="_blank">News Scan for Sep 30, 2014</a></dd>
+<dt>0.891</dt><dd><a href="http://www.arabnews.com/featured/news/638706&c=wStlzgPMAZcS1kJaK4aWb7-EmuzyxhD49Q13uTFFhI8&mkt=en-us" target="_blank">Fakeih: No MERS cases in Makkah</a></dd>
+<dt>0.667</dt><dd><a href="http://www.kuna.net.kw/ArticleDetails.aspx?id=2400422&language=en" target="_blank">KUNA : Holy Makkah is Corona-free</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -115,6 +121,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

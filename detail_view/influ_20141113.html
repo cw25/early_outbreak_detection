@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Influenza
                     <small><a href="influ_20141112.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Nov 13, 2014 <a href="influ_20141114.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/influ_dengu_20141113.html">Dengue Fever</option><option value="../comparison/influ_hemmo_20141113.html">Hemmorhagic Fever</option><option value="../comparison/influ_moldf_20141113.html">Mold/Fungal Infection</option><option value="../comparison/influ_menin_20141113.html">Meningitis</option><option value="../comparison/influ_pertu_20141113.html">Pertussis / Whooping Cough</option><option value="../comparison/influ_mersc_20141113.html">Middle East Respiratory Syndrome</option><option value="../comparison/influ_chole_20141113.html">Cholera</option><option value="../comparison/influ_hepat_20141113.html">Hepatitis</option><option value="../comparison/influ_chiku_20141113.html">Chikungunya</option><option value="../comparison/influ_yello_20141113.html">Yellow Fever</option><option value="../comparison/influ_plagu_20141113.html">Bubonic Plague</option><option value="../comparison/influ_westn_20141113.html">West Nile Virus</option><option value="../comparison/influ_swine_20141113.html">Swine Flu</option><option value="../comparison/influ_ebola_20141113.html">Ebola</option><option value="../comparison/influ_measl_20141113.html">Measles</option><option value="../comparison/influ_unkno_20141113.html">Unknown</option><option value="../comparison/influ_mumps_20141113.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,14 +73,14 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.985</dt><dd><a href="http://www.thecattlesite.com/news/46917/research-into-challenging-livestock-influenza-virus">Research into Challenging Livestock Influenza Virus</a></dd>
-<dt>0.981</dt><dd><a href="http://www.newsmax.com/Health-News/flu-shot-nasal-needle/2014/11/13/id/607249/">Needle Flu Shot or Nasal Spray</a></dd>
-<dt>0.980</dt><dd><a href="http://www.medicalnewstoday.com/articles/285349.php">Flu shots effective for seniors, says new review</a></dd>
-<dt>0.979</dt><dd><a href="http://abcnewspapers.com/2014/11/13/anoka-county-history-the-influenza-epidemic-of-1918/">Anoka County History: The Influenza Epidemic of 1918</a></dd>
-<dt>0.967</dt><dd><a href="http://www.newsoptimist.ca/article/20141113/BATTLEFORD0304/311139978/-1/battleford03/nasal-mist-flu-vaccine-may-be-best-option-for-children">Nasal mist flu vaccine may be best option for children</a></dd>
-<dt>0.917</dt><dd><a href="http://www.wdam.com/story/27379995/after-hours-flu-clinic">After Hours Flu Clinic offer no out of pocket cost flu shots</a></dd>
-<dt>0.698</dt><dd><a href="http://www.sciencetimes.com/articles/1284/20141113/particular-virus-causes-stupidity.htm">Virus Causes Stupidity In Infected Patients</a></dd>
-<dt>0.680</dt><dd><a href="http://in.rbth.com/economics/2014/11/13/yekaterinberg_scientists_develop_drug_to_fight_ebola_39715.html">Yekaterinberg scientists develop drug to fight Ebola</a></dd>
+                        <dt>0.985</dt><dd><a href="http://www.thecattlesite.com/news/46917/research-into-challenging-livestock-influenza-virus" target="_blank">Research into Challenging Livestock Influenza Virus</a></dd>
+<dt>0.981</dt><dd><a href="http://www.newsmax.com/Health-News/flu-shot-nasal-needle/2014/11/13/id/607249/" target="_blank">Needle Flu Shot or Nasal Spray</a></dd>
+<dt>0.980</dt><dd><a href="http://www.medicalnewstoday.com/articles/285349.php" target="_blank">Flu shots effective for seniors, says new review</a></dd>
+<dt>0.979</dt><dd><a href="http://abcnewspapers.com/2014/11/13/anoka-county-history-the-influenza-epidemic-of-1918/" target="_blank">Anoka County History: The Influenza Epidemic of 1918</a></dd>
+<dt>0.967</dt><dd><a href="http://www.newsoptimist.ca/article/20141113/BATTLEFORD0304/311139978/-1/battleford03/nasal-mist-flu-vaccine-may-be-best-option-for-children" target="_blank">Nasal mist flu vaccine may be best option for children</a></dd>
+<dt>0.917</dt><dd><a href="http://www.wdam.com/story/27379995/after-hours-flu-clinic" target="_blank">After Hours Flu Clinic offer no out of pocket cost flu shots</a></dd>
+<dt>0.698</dt><dd><a href="http://www.sciencetimes.com/articles/1284/20141113/particular-virus-causes-stupidity.htm" target="_blank">Virus Causes Stupidity In Infected Patients</a></dd>
+<dt>0.680</dt><dd><a href="http://in.rbth.com/economics/2014/11/13/yekaterinberg_scientists_develop_drug_to_fight_ebola_39715.html" target="_blank">Yekaterinberg scientists develop drug to fight Ebola</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -117,6 +123,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

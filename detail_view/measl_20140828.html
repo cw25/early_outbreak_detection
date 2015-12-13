@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Measles
                     <small><a href="measl_20140827.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Aug 28, 2014 <a href="measl_20140829.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/measl_dengu_20140828.html">Dengue Fever</option><option value="../comparison/measl_hemmo_20140828.html">Hemmorhagic Fever</option><option value="../comparison/measl_moldf_20140828.html">Mold/Fungal Infection</option><option value="../comparison/measl_influ_20140828.html">Influenza</option><option value="../comparison/measl_menin_20140828.html">Meningitis</option><option value="../comparison/measl_pertu_20140828.html">Pertussis / Whooping Cough</option><option value="../comparison/measl_mersc_20140828.html">Middle East Respiratory Syndrome</option><option value="../comparison/measl_chole_20140828.html">Cholera</option><option value="../comparison/measl_hepat_20140828.html">Hepatitis</option><option value="../comparison/measl_chiku_20140828.html">Chikungunya</option><option value="../comparison/measl_yello_20140828.html">Yellow Fever</option><option value="../comparison/measl_plagu_20140828.html">Bubonic Plague</option><option value="../comparison/measl_westn_20140828.html">West Nile Virus</option><option value="../comparison/measl_swine_20140828.html">Swine Flu</option><option value="../comparison/measl_ebola_20140828.html">Ebola</option><option value="../comparison/measl_unkno_20140828.html">Unknown</option><option value="../comparison/measl_mumps_20140828.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,10 +73,10 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.878</dt><dd><a href="http://www.ksl.com/?sid=31326040&nid=148">Disease outbreaks prompt reminder for college students</a></dd>
-<dt>0.697</dt><dd><a href="http://www.bignewsnetwork.com/index.php/sid/225199009">Child vaccination rates are high CDC says</a></dd>
-<dt>0.669</dt><dd><a href="http://freepressjournal.in/five-year-old-dies-of-measles/">Five-year-old dies of measles</a></dd>
-<dt>0.601</dt><dd><a href="http://reliefweb.int/report/occupied-palestinian-territory/gaza-situation-report-51-28-august-2014">Gaza Situation Report 51, 28 August 2014 - occupied Palestinian territory</a></dd>
+                        <dt>0.878</dt><dd><a href="http://www.ksl.com/?sid=31326040&nid=148" target="_blank">Disease outbreaks prompt reminder for college students</a></dd>
+<dt>0.697</dt><dd><a href="http://www.bignewsnetwork.com/index.php/sid/225199009" target="_blank">Child vaccination rates are high CDC says</a></dd>
+<dt>0.669</dt><dd><a href="http://freepressjournal.in/five-year-old-dies-of-measles/" target="_blank">Five-year-old dies of measles</a></dd>
+<dt>0.601</dt><dd><a href="http://reliefweb.int/report/occupied-palestinian-territory/gaza-situation-report-51-28-august-2014" target="_blank">Gaza Situation Report 51, 28 August 2014 - occupied Palestinian territory</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -113,6 +119,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

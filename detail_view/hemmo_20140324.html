@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Hemmorhagic Fever
                     <small><a href="hemmo_20140323.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Mar 24, 2014 <a href="hemmo_20140325.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/hemmo_dengu_20140324.html">Dengue Fever</option><option value="../comparison/hemmo_moldf_20140324.html">Mold/Fungal Infection</option><option value="../comparison/hemmo_influ_20140324.html">Influenza</option><option value="../comparison/hemmo_menin_20140324.html">Meningitis</option><option value="../comparison/hemmo_pertu_20140324.html">Pertussis / Whooping Cough</option><option value="../comparison/hemmo_mersc_20140324.html">Middle East Respiratory Syndrome</option><option value="../comparison/hemmo_chole_20140324.html">Cholera</option><option value="../comparison/hemmo_hepat_20140324.html">Hepatitis</option><option value="../comparison/hemmo_chiku_20140324.html">Chikungunya</option><option value="../comparison/hemmo_yello_20140324.html">Yellow Fever</option><option value="../comparison/hemmo_plagu_20140324.html">Bubonic Plague</option><option value="../comparison/hemmo_westn_20140324.html">West Nile Virus</option><option value="../comparison/hemmo_swine_20140324.html">Swine Flu</option><option value="../comparison/hemmo_ebola_20140324.html">Ebola</option><option value="../comparison/hemmo_measl_20140324.html">Measles</option><option value="../comparison/hemmo_unkno_20140324.html">Unknown</option><option value="../comparison/hemmo_mumps_20140324.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,12 +73,12 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>1.000</dt><dd><a href="http://www.theglobeandmail.com/news/national/man-ill-after-visit-to-western-africa-ebola-one-possible-diagnosis/article17652516/">Seriously ill Saskatchewan man prompts Ebola scare</a></dd>
-<dt>1.000</dt><dd><a href="http://www.huffingtonpost.ca/2014/03/24/man-falls-ill-after-visit_n_5023750.html?utm_hp_ref=canada&ir=Canada">Man falls ill after visit to western Africa; placed in hospital isolation</a></dd>
-<dt>0.998</dt><dd><a href="http://www.ctvnews.ca/health/saskatoon-man-tested-for-viral-hemorrhagic-fever-after-trip-to-liberia-1.1744188">Saskatoon man tested for viral hemorrhagic fever after trip to Liberia</a></dd>
-<dt>0.998</dt><dd><a href="http://saskatoon.ctvnews.ca/man-who-fell-ill-after-visit-to-western-africa-placed-in-hospital-isolation-in-sask-1.1743907">Ebola ruled out in case of Saskatoon patient</a></dd>
-<dt>0.956</dt><dd><a href="http://www.huffingtonpost.ca/2014/03/24/serious-illness-reporte_n_5024007.html?utm_hp_ref=canada&ir=Canada">'Serious illness' reported after Saskatoon man returns from Africa</a></dd>
-<dt>0.920</dt><dd><a href="http://www.globalpost.com/dispatch/news/the-canadian-press/140324/man-falls-ill-after-visit-western-africa-placed-hospital-iso">Man falls ill after visit to western Africa; placed in hospital isolation</a></dd>
+                        <dt>1.000</dt><dd><a href="http://www.theglobeandmail.com/news/national/man-ill-after-visit-to-western-africa-ebola-one-possible-diagnosis/article17652516/" target="_blank">Seriously ill Saskatchewan man prompts Ebola scare</a></dd>
+<dt>1.000</dt><dd><a href="http://www.huffingtonpost.ca/2014/03/24/man-falls-ill-after-visit_n_5023750.html?utm_hp_ref=canada&ir=Canada" target="_blank">Man falls ill after visit to western Africa; placed in hospital isolation</a></dd>
+<dt>0.998</dt><dd><a href="http://www.ctvnews.ca/health/saskatoon-man-tested-for-viral-hemorrhagic-fever-after-trip-to-liberia-1.1744188" target="_blank">Saskatoon man tested for viral hemorrhagic fever after trip to Liberia</a></dd>
+<dt>0.998</dt><dd><a href="http://saskatoon.ctvnews.ca/man-who-fell-ill-after-visit-to-western-africa-placed-in-hospital-isolation-in-sask-1.1743907" target="_blank">Ebola ruled out in case of Saskatoon patient</a></dd>
+<dt>0.956</dt><dd><a href="http://www.huffingtonpost.ca/2014/03/24/serious-illness-reporte_n_5024007.html?utm_hp_ref=canada&ir=Canada" target="_blank">'Serious illness' reported after Saskatoon man returns from Africa</a></dd>
+<dt>0.920</dt><dd><a href="http://www.globalpost.com/dispatch/news/the-canadian-press/140324/man-falls-ill-after-visit-western-africa-placed-hospital-iso" target="_blank">Man falls ill after visit to western Africa; placed in hospital isolation</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -115,6 +121,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

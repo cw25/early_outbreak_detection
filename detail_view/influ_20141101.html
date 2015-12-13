@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Influenza
                     <small><a href="influ_20141031.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Nov 01, 2014 <a href="influ_20141102.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/influ_dengu_20141101.html">Dengue Fever</option><option value="../comparison/influ_hemmo_20141101.html">Hemmorhagic Fever</option><option value="../comparison/influ_moldf_20141101.html">Mold/Fungal Infection</option><option value="../comparison/influ_menin_20141101.html">Meningitis</option><option value="../comparison/influ_pertu_20141101.html">Pertussis / Whooping Cough</option><option value="../comparison/influ_mersc_20141101.html">Middle East Respiratory Syndrome</option><option value="../comparison/influ_chole_20141101.html">Cholera</option><option value="../comparison/influ_hepat_20141101.html">Hepatitis</option><option value="../comparison/influ_chiku_20141101.html">Chikungunya</option><option value="../comparison/influ_yello_20141101.html">Yellow Fever</option><option value="../comparison/influ_plagu_20141101.html">Bubonic Plague</option><option value="../comparison/influ_westn_20141101.html">West Nile Virus</option><option value="../comparison/influ_swine_20141101.html">Swine Flu</option><option value="../comparison/influ_ebola_20141101.html">Ebola</option><option value="../comparison/influ_measl_20141101.html">Measles</option><option value="../comparison/influ_unkno_20141101.html">Unknown</option><option value="../comparison/influ_mumps_20141101.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,11 +73,11 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.985</dt><dd><a href="http://www.muskogeephoenix.com/news/local_news/county-health-departments-offer-flu-vaccination-clinics/article_cc116a68-618a-11e4-8dd0-734803d96a6c.html">County health departments offer flu vaccination clinics</a></dd>
-<dt>0.953</dt><dd><a href="http://www.boiseweekly.com/CityDesk/archives/2014/11/01/idaho-hospital-to-employees-get-a-flu-shot-or-youre-out&c=P3wk8zKFufuPqr1s1QPuPBgHrOyzJyBFvH5H1UhP_LA&mkt=en-us">Idaho Hospital to Employees: Get a Flu Shot Or You're Out</a></dd>
-<dt>0.743</dt><dd><a href="http://www.powerlineblog.com/archives/2014/11/the-case-of-the-mystery-virus-contd.php">The case of the mystery virus, cont’d</a></dd>
-<dt>0.652</dt><dd><a href="http://www.nwitimes.com/news/opinion/editorial/recent-editorials-published-in-indiana-newspapers/article_2851e403-48c5-5f31-b101-f9df23d69c88.html">Recent editorials published in Indiana newspapers</a></dd>
-<dt>0.567</dt><dd><a href="http://www.healio.com/infectious-disease/influenza/news/online/%7Bc0df772b-962a-4151-9daf-57f17025c0fe%7D/google-search-data-could-improve-real-time-flu-monitoring">Google search data could improve real-time flu monitoring</a></dd>
+                        <dt>0.985</dt><dd><a href="http://www.muskogeephoenix.com/news/local_news/county-health-departments-offer-flu-vaccination-clinics/article_cc116a68-618a-11e4-8dd0-734803d96a6c.html" target="_blank">County health departments offer flu vaccination clinics</a></dd>
+<dt>0.953</dt><dd><a href="http://www.boiseweekly.com/CityDesk/archives/2014/11/01/idaho-hospital-to-employees-get-a-flu-shot-or-youre-out&c=P3wk8zKFufuPqr1s1QPuPBgHrOyzJyBFvH5H1UhP_LA&mkt=en-us" target="_blank">Idaho Hospital to Employees: Get a Flu Shot Or You're Out</a></dd>
+<dt>0.743</dt><dd><a href="http://www.powerlineblog.com/archives/2014/11/the-case-of-the-mystery-virus-contd.php" target="_blank">The case of the mystery virus, cont’d</a></dd>
+<dt>0.652</dt><dd><a href="http://www.nwitimes.com/news/opinion/editorial/recent-editorials-published-in-indiana-newspapers/article_2851e403-48c5-5f31-b101-f9df23d69c88.html" target="_blank">Recent editorials published in Indiana newspapers</a></dd>
+<dt>0.567</dt><dd><a href="http://www.healio.com/infectious-disease/influenza/news/online/%7Bc0df772b-962a-4151-9daf-57f17025c0fe%7D/google-search-data-could-improve-real-time-flu-monitoring" target="_blank">Google search data could improve real-time flu monitoring</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -114,6 +120,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

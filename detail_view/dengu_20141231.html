@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Dengue Fever
                     <small><a href="dengu_20141230.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Dec 31, 2014 <a href="dengu_20150101.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/dengu_hemmo_20141231.html">Hemmorhagic Fever</option><option value="../comparison/dengu_moldf_20141231.html">Mold/Fungal Infection</option><option value="../comparison/dengu_influ_20141231.html">Influenza</option><option value="../comparison/dengu_menin_20141231.html">Meningitis</option><option value="../comparison/dengu_pertu_20141231.html">Pertussis / Whooping Cough</option><option value="../comparison/dengu_mersc_20141231.html">Middle East Respiratory Syndrome</option><option value="../comparison/dengu_chole_20141231.html">Cholera</option><option value="../comparison/dengu_hepat_20141231.html">Hepatitis</option><option value="../comparison/dengu_chiku_20141231.html">Chikungunya</option><option value="../comparison/dengu_yello_20141231.html">Yellow Fever</option><option value="../comparison/dengu_plagu_20141231.html">Bubonic Plague</option><option value="../comparison/dengu_westn_20141231.html">West Nile Virus</option><option value="../comparison/dengu_swine_20141231.html">Swine Flu</option><option value="../comparison/dengu_ebola_20141231.html">Ebola</option><option value="../comparison/dengu_measl_20141231.html">Measles</option><option value="../comparison/dengu_unkno_20141231.html">Unknown</option><option value="../comparison/dengu_mumps_20141231.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,9 +73,9 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.983</dt><dd><a href="http://www.hcplive.com/articles/CHIKV-Gets-Celebrity-Status">CHIKV Gets Celebrity Status</a></dd>
-<dt>0.913</dt><dd><a href="http://www.healthline.com/health-news/healthlines-top-medical-innovations-of-2014-123114">Healthline’s Top Medical Innovations of 2014</a></dd>
-<dt>0.749</dt><dd><a href="http://www.dailytimes.com.pk/foreign/31-Dec-2014/floods-kill-21-in-malaysia-waters-recede">Floods kill 21 in Malaysia, waters recede</a></dd>
+                        <dt>0.983</dt><dd><a href="http://www.hcplive.com/articles/CHIKV-Gets-Celebrity-Status" target="_blank">CHIKV Gets Celebrity Status</a></dd>
+<dt>0.913</dt><dd><a href="http://www.healthline.com/health-news/healthlines-top-medical-innovations-of-2014-123114" target="_blank">Healthline’s Top Medical Innovations of 2014</a></dd>
+<dt>0.749</dt><dd><a href="http://www.dailytimes.com.pk/foreign/31-Dec-2014/floods-kill-21-in-malaysia-waters-recede" target="_blank">Floods kill 21 in Malaysia, waters recede</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -112,6 +118,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Influenza
                     <small><a href="influ_20150212.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Feb 13, 2015 <a href="influ_20150214.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/influ_dengu_20150213.html">Dengue Fever</option><option value="../comparison/influ_hemmo_20150213.html">Hemmorhagic Fever</option><option value="../comparison/influ_moldf_20150213.html">Mold/Fungal Infection</option><option value="../comparison/influ_menin_20150213.html">Meningitis</option><option value="../comparison/influ_pertu_20150213.html">Pertussis / Whooping Cough</option><option value="../comparison/influ_mersc_20150213.html">Middle East Respiratory Syndrome</option><option value="../comparison/influ_chole_20150213.html">Cholera</option><option value="../comparison/influ_hepat_20150213.html">Hepatitis</option><option value="../comparison/influ_chiku_20150213.html">Chikungunya</option><option value="../comparison/influ_yello_20150213.html">Yellow Fever</option><option value="../comparison/influ_plagu_20150213.html">Bubonic Plague</option><option value="../comparison/influ_westn_20150213.html">West Nile Virus</option><option value="../comparison/influ_swine_20150213.html">Swine Flu</option><option value="../comparison/influ_ebola_20150213.html">Ebola</option><option value="../comparison/influ_measl_20150213.html">Measles</option><option value="../comparison/influ_unkno_20150213.html">Unknown</option><option value="../comparison/influ_mumps_20150213.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,13 +73,13 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>1.000</dt><dd><a href="http://www.phac-aspc.gc.ca/fluwatch/14-15/w05_15/index-eng.php">FluWatch report: February 1 to February 7, 2015 (Week 5)</a></dd>
-<dt>1.000</dt><dd><a href="http://dedham.wickedlocal.com/article/20150213/NEWS/150218086">Schools report an increase in illness-related absences</a></dd>
-<dt>0.999</dt><dd><a href="http://www.coloradoan.com/story/news/2015/02/13/colorado-sees-record-high-flu-hospitalizations/23339427/&c=Ce2QyQppf9QBQ7OSFUbSzzIJoIS8YRZEErS065TfCyU&mkt=en-us">Colorado sees record-high flu hospitalizations</a></dd>
-<dt>0.977</dt><dd><a href="http://www.brownsvilleherald.com/news/texas/article_79f505d9-fce9-531f-8554-3160df64771a.html">Valley health officials gearing up to tackle flu season Medicine: An estimated 400,000 doses of vaccine to be handed out this year.</a></dd>
-<dt>0.974</dt><dd><a href="http://www.connexionfrance.com/france-flu-influenza-grippe-epidemic-red-limousin-provence-alpes-cote-dazur-midi-pyrenees-16642-view-article.html">France in grip of flu epidemic as vaccine proves ineffective</a></dd>
-<dt>0.946</dt><dd><a href="http://thehill.com/opinion/op-ed/232662-flu-season-missing-the-mark">Flu season: Missing the mark</a></dd>
-<dt>0.649</dt><dd><a href="http://www.oregonlive.com/pacific-northwest-news/index.ssf/2015/02/avian_flu_found_in_deschutes_c.html">Avian flu found in Deschutes County</a></dd>
+                        <dt>1.000</dt><dd><a href="http://www.phac-aspc.gc.ca/fluwatch/14-15/w05_15/index-eng.php" target="_blank">FluWatch report: February 1 to February 7, 2015 (Week 5)</a></dd>
+<dt>1.000</dt><dd><a href="http://dedham.wickedlocal.com/article/20150213/NEWS/150218086" target="_blank">Schools report an increase in illness-related absences</a></dd>
+<dt>0.999</dt><dd><a href="http://www.coloradoan.com/story/news/2015/02/13/colorado-sees-record-high-flu-hospitalizations/23339427/&c=Ce2QyQppf9QBQ7OSFUbSzzIJoIS8YRZEErS065TfCyU&mkt=en-us" target="_blank">Colorado sees record-high flu hospitalizations</a></dd>
+<dt>0.977</dt><dd><a href="http://www.brownsvilleherald.com/news/texas/article_79f505d9-fce9-531f-8554-3160df64771a.html" target="_blank">Valley health officials gearing up to tackle flu season Medicine: An estimated 400,000 doses of vaccine to be handed out this year.</a></dd>
+<dt>0.974</dt><dd><a href="http://www.connexionfrance.com/france-flu-influenza-grippe-epidemic-red-limousin-provence-alpes-cote-dazur-midi-pyrenees-16642-view-article.html" target="_blank">France in grip of flu epidemic as vaccine proves ineffective</a></dd>
+<dt>0.946</dt><dd><a href="http://thehill.com/opinion/op-ed/232662-flu-season-missing-the-mark" target="_blank">Flu season: Missing the mark</a></dd>
+<dt>0.649</dt><dd><a href="http://www.oregonlive.com/pacific-northwest-news/index.ssf/2015/02/avian_flu_found_in_deschutes_c.html" target="_blank">Avian flu found in Deschutes County</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -116,6 +122,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

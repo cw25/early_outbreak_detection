@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Measles
                     <small><a href="measl_20140823.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Aug 24, 2014 <a href="measl_20140825.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/measl_dengu_20140824.html">Dengue Fever</option><option value="../comparison/measl_hemmo_20140824.html">Hemmorhagic Fever</option><option value="../comparison/measl_moldf_20140824.html">Mold/Fungal Infection</option><option value="../comparison/measl_influ_20140824.html">Influenza</option><option value="../comparison/measl_menin_20140824.html">Meningitis</option><option value="../comparison/measl_pertu_20140824.html">Pertussis / Whooping Cough</option><option value="../comparison/measl_mersc_20140824.html">Middle East Respiratory Syndrome</option><option value="../comparison/measl_chole_20140824.html">Cholera</option><option value="../comparison/measl_hepat_20140824.html">Hepatitis</option><option value="../comparison/measl_chiku_20140824.html">Chikungunya</option><option value="../comparison/measl_yello_20140824.html">Yellow Fever</option><option value="../comparison/measl_plagu_20140824.html">Bubonic Plague</option><option value="../comparison/measl_westn_20140824.html">West Nile Virus</option><option value="../comparison/measl_swine_20140824.html">Swine Flu</option><option value="../comparison/measl_ebola_20140824.html">Ebola</option><option value="../comparison/measl_unkno_20140824.html">Unknown</option><option value="../comparison/measl_mumps_20140824.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,7 +73,7 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.838</dt><dd><a href="http://www.newstimes.com/local/article/Vaccine-preventable-illnesses-on-the-rise-5708184.php">Vaccine-preventable illnesses on the rise</a></dd>
+                        <dt>0.838</dt><dd><a href="http://www.newstimes.com/local/article/Vaccine-preventable-illnesses-on-the-rise-5708184.php" target="_blank">Vaccine-preventable illnesses on the rise</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -110,6 +116,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

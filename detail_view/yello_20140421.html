@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Yellow Fever
                     <small><a href="yello_20140420.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Apr 21, 2014 <a href="yello_20140422.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/yello_dengu_20140421.html">Dengue Fever</option><option value="../comparison/yello_hemmo_20140421.html">Hemmorhagic Fever</option><option value="../comparison/yello_moldf_20140421.html">Mold/Fungal Infection</option><option value="../comparison/yello_influ_20140421.html">Influenza</option><option value="../comparison/yello_menin_20140421.html">Meningitis</option><option value="../comparison/yello_pertu_20140421.html">Pertussis / Whooping Cough</option><option value="../comparison/yello_mersc_20140421.html">Middle East Respiratory Syndrome</option><option value="../comparison/yello_chole_20140421.html">Cholera</option><option value="../comparison/yello_hepat_20140421.html">Hepatitis</option><option value="../comparison/yello_chiku_20140421.html">Chikungunya</option><option value="../comparison/yello_plagu_20140421.html">Bubonic Plague</option><option value="../comparison/yello_westn_20140421.html">West Nile Virus</option><option value="../comparison/yello_swine_20140421.html">Swine Flu</option><option value="../comparison/yello_ebola_20140421.html">Ebola</option><option value="../comparison/yello_measl_20140421.html">Measles</option><option value="../comparison/yello_unkno_20140421.html">Unknown</option><option value="../comparison/yello_mumps_20140421.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,7 +73,7 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.563</dt><dd><a href="http://www.eturbonews.com/44908/walgreens-introduces-destination-specific-travel-health-services">Walgreens introduces destination-specific travel health services</a></dd>
+                        <dt>0.563</dt><dd><a href="http://www.eturbonews.com/44908/walgreens-introduces-destination-specific-travel-health-services" target="_blank">Walgreens introduces destination-specific travel health services</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -110,6 +116,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

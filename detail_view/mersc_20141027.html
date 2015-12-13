@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Middle East Respiratory Syndrome
                     <small><a href="mersc_20141026.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Oct 27, 2014 <a href="mersc_20141028.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/mersc_dengu_20141027.html">Dengue Fever</option><option value="../comparison/mersc_hemmo_20141027.html">Hemmorhagic Fever</option><option value="../comparison/mersc_moldf_20141027.html">Mold/Fungal Infection</option><option value="../comparison/mersc_influ_20141027.html">Influenza</option><option value="../comparison/mersc_menin_20141027.html">Meningitis</option><option value="../comparison/mersc_pertu_20141027.html">Pertussis / Whooping Cough</option><option value="../comparison/mersc_chole_20141027.html">Cholera</option><option value="../comparison/mersc_hepat_20141027.html">Hepatitis</option><option value="../comparison/mersc_chiku_20141027.html">Chikungunya</option><option value="../comparison/mersc_yello_20141027.html">Yellow Fever</option><option value="../comparison/mersc_plagu_20141027.html">Bubonic Plague</option><option value="../comparison/mersc_westn_20141027.html">West Nile Virus</option><option value="../comparison/mersc_swine_20141027.html">Swine Flu</option><option value="../comparison/mersc_ebola_20141027.html">Ebola</option><option value="../comparison/mersc_measl_20141027.html">Measles</option><option value="../comparison/mersc_unkno_20141027.html">Unknown</option><option value="../comparison/mersc_mumps_20141027.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,8 +73,8 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.984</dt><dd><a href="http://www.arabnews.com/news/651321">New measures to save lives from deadly MERS virus</a></dd>
-<dt>0.760</dt><dd><a href="http://www.infectioncontroltoday.com/news/2014/10/turkey-reports-first-case-of-merscov-to-who.aspx">Turkey Reports First Case of MERS-CoV to WHO</a></dd>
+                        <dt>0.984</dt><dd><a href="http://www.arabnews.com/news/651321" target="_blank">New measures to save lives from deadly MERS virus</a></dd>
+<dt>0.760</dt><dd><a href="http://www.infectioncontroltoday.com/news/2014/10/turkey-reports-first-case-of-merscov-to-who.aspx" target="_blank">Turkey Reports First Case of MERS-CoV to WHO</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -111,6 +117,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

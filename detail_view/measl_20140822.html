@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Measles
                     <small><a href="measl_20140821.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Aug 22, 2014 <a href="measl_20140823.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/measl_dengu_20140822.html">Dengue Fever</option><option value="../comparison/measl_hemmo_20140822.html">Hemmorhagic Fever</option><option value="../comparison/measl_moldf_20140822.html">Mold/Fungal Infection</option><option value="../comparison/measl_influ_20140822.html">Influenza</option><option value="../comparison/measl_menin_20140822.html">Meningitis</option><option value="../comparison/measl_pertu_20140822.html">Pertussis / Whooping Cough</option><option value="../comparison/measl_mersc_20140822.html">Middle East Respiratory Syndrome</option><option value="../comparison/measl_chole_20140822.html">Cholera</option><option value="../comparison/measl_hepat_20140822.html">Hepatitis</option><option value="../comparison/measl_chiku_20140822.html">Chikungunya</option><option value="../comparison/measl_yello_20140822.html">Yellow Fever</option><option value="../comparison/measl_plagu_20140822.html">Bubonic Plague</option><option value="../comparison/measl_westn_20140822.html">West Nile Virus</option><option value="../comparison/measl_swine_20140822.html">Swine Flu</option><option value="../comparison/measl_ebola_20140822.html">Ebola</option><option value="../comparison/measl_unkno_20140822.html">Unknown</option><option value="../comparison/measl_mumps_20140822.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,9 +73,9 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.923</dt><dd><a href="http://www.mamamia.com.au/social/nsw-measles-outbreak/">There's a measles outbreak in NSW. Thanks anti-vaxxers.</a></dd>
-<dt>0.673</dt><dd><a href="http://www.sheknows.com/health-and-wellness/articles/1048135/mayo-clinic-announces-woman-cured-of-cancer-by-a-measles-vaccine">Can the measles vaccine cure cancer?</a></dd>
-<dt>0.534</dt><dd><a href="http://www.news.com.au/national/queensland/whitsundays-and-mackay-residents-warned-of-measles-risk-after-man-attends-large-wedding-and-bucks-party/story-fnii5v6w-1227033265274?from=public_rss">Wedding guest sparks mass measles alert</a></dd>
+                        <dt>0.923</dt><dd><a href="http://www.mamamia.com.au/social/nsw-measles-outbreak/" target="_blank">There's a measles outbreak in NSW. Thanks anti-vaxxers.</a></dd>
+<dt>0.673</dt><dd><a href="http://www.sheknows.com/health-and-wellness/articles/1048135/mayo-clinic-announces-woman-cured-of-cancer-by-a-measles-vaccine" target="_blank">Can the measles vaccine cure cancer?</a></dd>
+<dt>0.534</dt><dd><a href="http://www.news.com.au/national/queensland/whitsundays-and-mackay-residents-warned-of-measles-risk-after-man-attends-large-wedding-and-bucks-party/story-fnii5v6w-1227033265274?from=public_rss" target="_blank">Wedding guest sparks mass measles alert</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -112,6 +118,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

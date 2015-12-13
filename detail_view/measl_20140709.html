@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Measles
                     <small><a href="measl_20140708.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Jul 09, 2014 <a href="measl_20140710.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/measl_dengu_20140709.html">Dengue Fever</option><option value="../comparison/measl_hemmo_20140709.html">Hemmorhagic Fever</option><option value="../comparison/measl_moldf_20140709.html">Mold/Fungal Infection</option><option value="../comparison/measl_influ_20140709.html">Influenza</option><option value="../comparison/measl_menin_20140709.html">Meningitis</option><option value="../comparison/measl_pertu_20140709.html">Pertussis / Whooping Cough</option><option value="../comparison/measl_mersc_20140709.html">Middle East Respiratory Syndrome</option><option value="../comparison/measl_chole_20140709.html">Cholera</option><option value="../comparison/measl_hepat_20140709.html">Hepatitis</option><option value="../comparison/measl_chiku_20140709.html">Chikungunya</option><option value="../comparison/measl_yello_20140709.html">Yellow Fever</option><option value="../comparison/measl_plagu_20140709.html">Bubonic Plague</option><option value="../comparison/measl_westn_20140709.html">West Nile Virus</option><option value="../comparison/measl_swine_20140709.html">Swine Flu</option><option value="../comparison/measl_ebola_20140709.html">Ebola</option><option value="../comparison/measl_unkno_20140709.html">Unknown</option><option value="../comparison/measl_mumps_20140709.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,9 +73,9 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.820</dt><dd><a href="http://www.cnn.com/2014/07/09/opinion/carroll-vaccinate-kids/index.html">Opinion: Why you must vaccinate your kids</a></dd>
-<dt>0.775</dt><dd><a href="http://www.news.com.au/national/queensland/second-case-of-measles-confirmed-in-cairns-in-a-week/story-fnii5v6w-1226983335967?from=public_rss">Second measles scare in a week</a></dd>
-<dt>0.696</dt><dd><a href="http://www.redorbit.com/news/health/1113187653/smallpox-skeletons-in-the-closet-070914/">Smallpox Vials Discovered In A Federal Lab Closet</a></dd>
+                        <dt>0.820</dt><dd><a href="http://www.cnn.com/2014/07/09/opinion/carroll-vaccinate-kids/index.html" target="_blank">Opinion: Why you must vaccinate your kids</a></dd>
+<dt>0.775</dt><dd><a href="http://www.news.com.au/national/queensland/second-case-of-measles-confirmed-in-cairns-in-a-week/story-fnii5v6w-1226983335967?from=public_rss" target="_blank">Second measles scare in a week</a></dd>
+<dt>0.696</dt><dd><a href="http://www.redorbit.com/news/health/1113187653/smallpox-skeletons-in-the-closet-070914/" target="_blank">Smallpox Vials Discovered In A Federal Lab Closet</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -112,6 +118,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 

@@ -26,12 +26,12 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Early Warning</a>
+                <a class="navbar-brand" href="../dashboard.html">Early Warning</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../index.html">Daily Alerts</a>
+                        <a href="../dashboard.html">Daily Alerts</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +46,12 @@
                 <h1 class="page-header">Influenza
                     <small><a href="influ_20150731.html"><span class="glyphicon glyphicon-arrow-left"></span></a> Aug 01, 2015 <a href="influ_20150802.html"><span class="glyphicon glyphicon-arrow-right"></span></a></small>
                 </h1>
+                
+                <form class="form-inline input-md" id="comparison_form">Compare to:
+<select class="form-control input-sm">
+<option>-</option>
+<option value="../comparison/influ_dengu_20150801.html">Dengue Fever</option><option value="../comparison/influ_hemmo_20150801.html">Hemmorhagic Fever</option><option value="../comparison/influ_moldf_20150801.html">Mold/Fungal Infection</option><option value="../comparison/influ_menin_20150801.html">Meningitis</option><option value="../comparison/influ_pertu_20150801.html">Pertussis / Whooping Cough</option><option value="../comparison/influ_mersc_20150801.html">Middle East Respiratory Syndrome</option><option value="../comparison/influ_chole_20150801.html">Cholera</option><option value="../comparison/influ_hepat_20150801.html">Hepatitis</option><option value="../comparison/influ_chiku_20150801.html">Chikungunya</option><option value="../comparison/influ_yello_20150801.html">Yellow Fever</option><option value="../comparison/influ_plagu_20150801.html">Bubonic Plague</option><option value="../comparison/influ_westn_20150801.html">West Nile Virus</option><option value="../comparison/influ_swine_20150801.html">Swine Flu</option><option value="../comparison/influ_ebola_20150801.html">Ebola</option><option value="../comparison/influ_measl_20150801.html">Measles</option><option value="../comparison/influ_unkno_20150801.html">Unknown</option><option value="../comparison/influ_mumps_20150801.html">Mumps</option></select></form><br/>
+
             </div>
         </div>
 
@@ -67,12 +73,12 @@
                 </h3>
                 <div class="detail_scrollable">
                     <dl>
-                        <dt>0.995</dt><dd><a href="http://www.cidrap.umn.edu/news-perspective/2015/07/news-scan-jul-31-2015">News Scan for Jul 31, 2015</a></dd>
-<dt>0.915</dt><dd><a href="http://www.yourhoustonnews.com/cleveland/news/six-cases-of-potentially-fatal-eastern-encephalitis-confirmed-in-texas/article_446eb1f7-ea3c-56f6-91dc-d77be86674da.html">Six cases of potentially fatal Eastern Encephalitis confirmed in Texas, one in Liberty County</a></dd>
-<dt>0.882</dt><dd><a href="http://www.collective-evolution.com/2015/02/15/the-top-6-reasons-why-parents-are-choosing-not-to-vaccinate-their-kids/">The Top 6 Reasons Why Parents Are Choosing Not To Vaccinate Their Kids</a></dd>
-<dt>0.786</dt><dd><a href="http://www.poultrymed.com/Poultrymed/Templates/showpage.asp?DBID=1&LNGID=1&TMID=178&FID=1825&PID=0&IID=25870">Two cases of avian influenza confirmed in Western Cape</a></dd>
-<dt>0.751</dt><dd><a href="http://590kid.com/2015/07/31/escaped-inmate-captured-in-pa-suspected-of-murdering-woman/">July 31, 2015 Archives</a></dd>
-<dt>0.576</dt><dd><a href="http://www.wcbi.com/local-news/mississippi-prepares-for-avian-influenza/">Mississippi Prepares for Avian Influenza</a></dd>
+                        <dt>0.995</dt><dd><a href="http://www.cidrap.umn.edu/news-perspective/2015/07/news-scan-jul-31-2015" target="_blank">News Scan for Jul 31, 2015</a></dd>
+<dt>0.915</dt><dd><a href="http://www.yourhoustonnews.com/cleveland/news/six-cases-of-potentially-fatal-eastern-encephalitis-confirmed-in-texas/article_446eb1f7-ea3c-56f6-91dc-d77be86674da.html" target="_blank">Six cases of potentially fatal Eastern Encephalitis confirmed in Texas, one in Liberty County</a></dd>
+<dt>0.882</dt><dd><a href="http://www.collective-evolution.com/2015/02/15/the-top-6-reasons-why-parents-are-choosing-not-to-vaccinate-their-kids/" target="_blank">The Top 6 Reasons Why Parents Are Choosing Not To Vaccinate Their Kids</a></dd>
+<dt>0.786</dt><dd><a href="http://www.poultrymed.com/Poultrymed/Templates/showpage.asp?DBID=1&LNGID=1&TMID=178&FID=1825&PID=0&IID=25870" target="_blank">Two cases of avian influenza confirmed in Western Cape</a></dd>
+<dt>0.751</dt><dd><a href="http://590kid.com/2015/07/31/escaped-inmate-captured-in-pa-suspected-of-murdering-woman/" target="_blank">July 31, 2015 Archives</a></dd>
+<dt>0.576</dt><dd><a href="http://www.wcbi.com/local-news/mississippi-prepares-for-avian-influenza/" target="_blank">Mississippi Prepares for Avian Influenza</a></dd>
                     </dl>
                 </div>
                 <p>&nbsp;</p>
@@ -115,6 +121,7 @@
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/comparison_form.js"></script>
 
 </body>
 
