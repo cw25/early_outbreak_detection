@@ -62,10 +62,13 @@ p.authors {
 
 div.detail_scrollable {
     overflow-y: scroll;
+    min-height: 180px;
     max-height: 180px;
 }
 
-img {
-	align: right;
+
+.no-responsive {
+	max-width: 400px;
+	max-height: 200px;
 }
 
