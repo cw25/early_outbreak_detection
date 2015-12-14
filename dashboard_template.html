@@ -10,6 +10,32 @@
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/w210.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+     thisdate = 'SELECTED_DATE_YMD';
+     function gotocompare()
+     {
+       choices = document.getElementsByName("compare");
+       chosen = new Array();
+       for (i = 0; i < choices.length; i++)
+       {
+         if (choices[i].checked)
+         {
+           chosen[chosen.length] = choices[i].value;
+         }
+       }
+       if (chosen.length != 2)
+       {
+         alert("For comparisons, select exactly two event types");
+       }
+       else
+       {
+         window.open("../comparison/" + chosen[0] + "_" + chosen[1] + "_" + thisdate + ".html", "_self");
+       }
+     }
+    </script>
 
 </head>
 
@@ -74,9 +100,6 @@
         </footer>
 
     </div>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
