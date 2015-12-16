@@ -72,3 +72,15 @@ div.detail_scrollable {
 	max-height: 200px;
 }
 
+img.poi-thumb {
+	width: 250px;
+	float: left;
+	padding-right: 30px;
+}
+
+.fake-header {
+	font-size: 20pt;
+	font-weight: 500;
+	margin: 0px;
+}
+
