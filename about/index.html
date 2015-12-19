@@ -176,7 +176,7 @@
 									Manufacturers use <a href="https://en.wikipedia.org/wiki/Control_chart">Shewhart charts</a> to 
 									detect abnormalities in otherwise reliable processes. We use them to <font color="orange">generate alerts</font>
 									when the number of <font color="orange">outbreak-predictive articles or tweets
-									is unusually high</font> (more then 3 standard deviations above the previous 30-day
+									is unusually high</font> (more than 3 standard deviations above the previous 30-day
 									average). They also generate warnings when the number of daily articles
 									relevant to a given disease is above average for 6 days in a row.
 									</p>
@@ -236,6 +236,7 @@
 						</div>
 					</section>
 
+
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
@@ -249,9 +250,57 @@
 								<li><a href="../dashboard/dashboard_20140322.html" class="button fit special">Enter the Site</a></li>
 							</ul>
 						</div>
+						<div class="inner">
+							<header>
+								<h2>Future Possibilities</h2>
+								
+								<h4>Cost Projections</h4>
+								<p>
+									Interventions at different stages of an outbreak have different costs.
+									For example, distributing leaflets and hand sanitizer at the early stages
+									costs a great deal less than enforcing large-scale quarantine measures.
+									We foresee adding a component that models these expenditures based on
+									the current human impact data and the expected progression of a disease.
+								</p>
+								
+								<h4>Realtime Data Ingestion and Alerting</h4>
+								<p>
+									All of our technology components have been built in a way that they could
+									hypothetically operate on real-time data feeds. We envision consuming
+									data from the Twitter "firehose" and crawling URLs from GDELT as they are
+									discovered to provide immediate alerts when unusual patterns are seen.
+								</p>
+								
+								<h4>Improved Twitter Modeling</h4>
+								<p>
+									Twitter presented some intriguing challenges to our model building process. We used a
+									single machine learning model to process both the article texts and Twitter
+									feeds. While this worked to a degree, with additional data from Twitter (beyond what is available
+									via their public API), we might be able to build more specific models that
+									yield more accurate classifications.
+								</p>
+								
+								<h4>Multilingual Support</h4>
+								<p>
+									We only processed articles written in English for this project. Incorporating texts
+									written in other languages could help us generate better, faster alerts.
+								</p>
+							</header>
+						</div>
+						<div class="inner">
+							<header>
+								<h2>Acknowledgements</h2>
+								<p>
+								Special thanks to <a href="http://www.ischool.berkeley.edu/people/faculty/stevenweber">Steve Weber</a>
+								for providing his valuable advice on the project. Many thanks also to our
+								instructors, <a href="http://www.ischool.berkeley.edu/people/faculty/alexmarrs">Alex Marrs</a> and
+								<a href="http://www.ischool.berkeley.edu/people/faculty/bengimpert">Ben Gimpert</a>, for their guidance.
+								</p>
+							</header>
+						</div>
 					</section>
-				
-				
+					
+					
 				<!-- Footer -->
 					<footer id="footer">
 						<h2>

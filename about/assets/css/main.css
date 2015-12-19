@@ -3580,6 +3580,15 @@
 		max-width: 45em;
 	}
 
+
+	#cta .inner2 {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		text-align: center;
+	}
+
 		#cta .inner header {
 			-moz-order: 1;
 			-webkit-order: 1;
